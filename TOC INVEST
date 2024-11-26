@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel Toc Invest</title>
+  <style>
+    /* Estilos básicos */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f9f4; /* Verde claro suave */
+    }
+
+    header {
+      background-color: #4caf50; /* Verde da logo */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 50px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      background-color: #388e3c; /* Verde mais escuro */
+      padding: 10px;
+    }
+
+    .navbar a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      margin: 20px;
+    }
+
+    .section {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+    }
+
+    .section h2 {
+      color: #4caf50; /* Verde principal */
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #e8f5e9;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    footer {
+      background-color: #388e3c;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+
+    footer a {
+      color: white;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-toc-invest.png" alt="Logo Toc Invest">
+    <h1>Toc Invest</h1>
+    <p>Seu painel financeiro sustentável e inovador!</p>
+  </header>
+  <nav class="navbar">
+    <a href="#inicio">Início</a>
+    <a href="#conta-digital">Conta Digital</a>
+    <a href="#transacoes">Transações</a>
+    <a href="#investimentos">Investimentos</a>
+    <a href="#cartoes">Cartões</a>
+  </nav>
+  <div class="container">
+    <!-- Início -->
+    <section class="section" id="inicio">
+      <h2>Resumo da Conta</h2>
+      <p><strong>Saldo Atual:</strong> R$ 3.450,00</p>
+      <p><strong>Entradas:</strong> R$ 1.500,00</p>
+      <p><strong>Saídas:</strong> R$ 1.200,00</p>
+    </section>
+
+    <!-- Transações -->
+    <section class="section" id="transacoes">
+      <h2>Últimas Transações</h2>
+      <ul>
+        <li>Compra no débito: -R$ 22,77</li>
+        <li>Compra no débito: -R$ 5,00</li>
+        <li>Depósito: +R$ 1.000,00</li>
+        <li>Transferência recebida: +R$ 500,00</li>
+        <li>Pagamento de conta: -R$ 120,00</li>
+      </ul>
+    </section>
+
+    <!-- Investimentos -->
+    <section class="section" id="investimentos">
+      <h2>Investimentos</h2>
+      <p><strong>Carteira Atual:</strong> R$ 10.000,00</p>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Tesouro Direto</h3>
+          <p>Saldo: R$ 5.000,00</p>
+          <p>Rentabilidade: 9% ao ano</p>
+        </div>
+        <div class="card">
+          <h3>Ações</h3>
+          <p>Saldo: R$ 3.000,00</p>
+          <p>Rentabilidade: 15% ao ano</p>
+        </div>
+        <div class="card">
+          <h3>Fundo Imobiliário</h3>
+          <p>Saldo: R$ 2.000,00</p>
+          <p>Rentabilidade: 7% ao ano</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cartões -->
+    <section class="section" id="cartoes">
+      <h2>Cartões</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Cartão de Crédito</h3>
+          <p>Limite: R$ 10.000,00</p>
+          <p>Fatura Atual: R$ 2.500,00</p>
+        </div>
+        <div class="card">
+          <h3>Cartão de Débito</h3>
+          <p>Saldo Vinculado: R$ 3.450,00</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 Toc Invest. Todos os direitos reservados. <a href="#inicio">Voltar ao topo</a></p>
+  </footer>
+</body>
+</html>
